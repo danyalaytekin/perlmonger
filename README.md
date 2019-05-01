@@ -22,3 +22,11 @@ if(something) {
 elsif {
 }
 ```
+
+### qw
+
+Quote word. Splits strings using spaces. A string cannot contain a space. It [isn't a function](https://perlmaven.com/qw-quote-word).
+
+```perl
+my @something = qw(first second third)
+```

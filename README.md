@@ -34,3 +34,7 @@ my @something = qw(first second third)
 ### `1;`
 
 A Perl module must return a Boolean, or something that evaluates to one. Like `1`.
+
+### =head1, =cut, ...
+
+These are part of [Pod](https://perldoc.perl.org/perlpod.html), Perl's native documentation system.

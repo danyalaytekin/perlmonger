@@ -43,6 +43,7 @@ These are part of [Pod](https://perldoc.perl.org/perlpod.html), Perl's native do
 
 The `my` keyword will scope the declaration of a variable to its containing file, block, or subroutine.
 
+```perl
 my $something = 2;
 sub f
 {
@@ -50,3 +51,4 @@ sub f
     print $something;  # 3
 }
 print $something;      # 2
+```

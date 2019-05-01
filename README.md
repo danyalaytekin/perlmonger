@@ -30,3 +30,7 @@ Quote word. Splits strings using spaces. A string cannot contain a space. It [is
 ```perl
 my @something = qw(first second third)
 ```
+
+### `1;`
+
+A Perl module must return a Boolean, or something that evaluates to one. Like `1`.

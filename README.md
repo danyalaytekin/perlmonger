@@ -38,3 +38,15 @@ A Perl module must return a Boolean, or something that evaluates to one. Like `1
 ### =head1, =cut, ...
 
 These are part of [Pod](https://perldoc.perl.org/perlpod.html), Perl's native documentation system.
+
+### `my`
+
+The `my` keyword will scope the declaration of a variable to its containing file, block, or subroutine.
+
+my $something = 2;
+sub f
+{
+    my $something = 3;
+    print $something;  # 3
+}
+print $something;      # 2
